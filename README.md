@@ -1,8 +1,10 @@
 # Huffman-Encoding
+
 A program to demonstrate Huffman's encoding and decoding algorithm using a binary tree.
 _Note: The characters I focused on are ASCII, UTF-8 is not supported_
 
 ##The approach I used for the algorithm : ##
+
 	*Take in data from the user selected text file as a String
 	*Using the data create a Huffman Binary Tree with the frequency at which the characters appear in the data
 	*Traverse the Huffman Tree for all characters getting the encoding for them in the process.
@@ -19,6 +21,7 @@ _Note: The characters I focused on are ASCII, UTF-8 is not supported_
 	*The data is decoded using the Huffman Tree and printed to the console
 	
 ##Additional user statistics are provided in the console such as : ##
+	
 	*Time taken to compress
 	*Uncompressed byte size
 	*Compressed byte size
