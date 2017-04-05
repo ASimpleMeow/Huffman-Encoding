@@ -1,0 +1,12 @@
+Some Notes (As well a Huffman Test File):
+
+Huffman encoding test to verify the compression/encoding of data.
+As well as verify the decompression/decoding of the encoded data.
+Go go gopher.
+For huffman to be effective, the data to be encoded must contain many 
+bytes of information, since the encoding must contain the magic hex number,
+information for decoding the data and the data itself.
+If the original text is too small, there will be almost no benifit/improvements.
+But for data that's large, it helps out a lot.
+
+-Oleksandr Kononov, 20071032.
